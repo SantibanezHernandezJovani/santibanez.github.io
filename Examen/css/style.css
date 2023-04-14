@@ -1,0 +1,235 @@
+
+.login {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.regis {
+  width: 700px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+img{
+  width: 630px;
+    height: 380px;
+}
+
+.login .form .message a{
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.form.form2 .message a{
+  margin: 20px;
+  padding: 20px;
+}
+
+.messageito a{
+  margin: 20px;
+  padding: 20px;
+}
+
+.irt{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.contenedor{
+  display: inline-block;
+  width: 1294px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.contenedorbajo{
+  display: inline-block;
+  width: 1294px;
+  height: 100px;
+  background-color: #C1DFB0;
+  color: white;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.contenedorbajito{
+  display: inline-block;
+  width: 625px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.contenedorsote{
+  display: inline-block;
+  width: 625px;
+  height: 400px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.form {
+  background: #FFFFFF;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+h1{
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.form textarea {
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+button{
+  border-radius: 20px;
+}
+
+.form input {
+	background: #f2f2f2;
+	width: 90%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+  }
+  .form fieldset {
+	background: #f2f2f2;
+	width: 90%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+  }
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.form .message {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+
+.messageito .en {
+  text-decoration:none;
+  color: #4CAF50;
+}
+.messageito .ecr {
+  text-decoration:none;
+  color: #4CAF50;
+}
+
+
+.form.form2 .message .en {
+  text-decoration:none;
+  color: #4CAF50;
+}
+.form.form2 .message .ecr {
+  color: #4CAF50;
+  border-bottom: #200d28 5px;
+}
+
+
+
+.form .message .en {
+  color: #4CAF50;
+}
+.form .message .ecr {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background-image: radial-gradient(at top, #16a085,#200d28,#200d28,#200d28, #200d28,black, black);
+
+  height: 800px;
+ font-family: "Roboto", sans-serif;   
+}
+
+.xd {
+  background-image: radial-gradient(at top, #16a085,#200d28,#200d28,#200d28, #200d28,black, black);
+
+  height: 1200px;
+ font-family: "Roboto", sans-serif;   
+}
+
+
+
+
+.too{
+  display: flex;
+  
+  flex-direction: column;
+}
+
+
+.messageito{
+  flex-grow: 1;
+  height: 200px;
+  width: 100%;
+  margin-left: 1200px;
+  
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+.welcome{
+  font-size: 95px;
+  color: white;
+  text-align: center;
+  flex-grow: 4;
+}

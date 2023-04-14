@@ -1,0 +1,37 @@
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    position: fixed;
+
+    z-index: 1;
+    position: sticky;
+    border: 10px;
+    border-color: #000;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    top: 10px;
+    right: 10px;
+    
+  }
+
+  .div3{
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    position:fixed;
+    border: 10px;
+    border-color: #000;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    top: 10px;
+    left: 10px;
+    
+  
+  }

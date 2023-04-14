@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: black;
+    color: white;
+
+    /*Una sola linea, 4 valores*/
+    /*1 arriba, 2 derecha, 3 abajo, 4 izquierda, manesillas del reloj*/
+    /*padding: 20px 20px 20px 20px;*/
+    /*margin: 20px 20px 20px 20px;*/
+
+    /*Una sola linea, 2 valores*/
+    /*1 arriba y abajo, 2 izquierda y derecha*/
+    /*padding: 15px 20px;*/
+
+    /*Una sola linea, 1 valores*/
+    padding: 20px;
+
+    /*Una sola linea, 3 valores*/
+    /*1 arriba, 2 izquierda y derecha, 3 abajo*/
+    /*padding: 15px 20px 5px;*/
+
+
+    
+
+
+    /*padding-left: 20px;*/
+    /*padding-top: 20px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    border-radius: 5px;
+
+}
+
+#contro{
+    background-color: red;
+}
+#contama{
+    background-color: yellow;
+}
+
+#xs{
+
+    background-color: blue;
+}
+
+strong{
+    display: block;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    border-radius: 20px;
+}
+
+a{
+    display: inline-block;
+    width: 100px;
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px 20px 30px 12px;
+    text-decoration: none;
+}

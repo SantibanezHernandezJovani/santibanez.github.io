@@ -1,0 +1,36 @@
+.CONTE{
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    border: 10px;
+    border-color: #000;
+    box-sizing: border-box;
+    
+  
+  }
+
+  .CONTE2{
+    width: 400px;
+    height: 300px;
+    background-color: #000;
+    color: green;
+    padding: 20px;
+    border: 10px;
+    border-color: #000;
+    box-sizing: border-box;    /*Fuentes seguras son las que estan instaadas ya en el ordenador.*/
+    font-family: helvetica, serif;
+    overflow: scroll;  /*ta shilo*/
+  }
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  
+
+
+  

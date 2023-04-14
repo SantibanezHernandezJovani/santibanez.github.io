@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Página principal</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+  </head>
+  <body>
+    <section class="too">
+    <header>
+      
+    </header>
+
+    <main>
+        <body>
+            <div class="contenedori">
+          
+              <div class="formulario formulariooo">
+                <h1>Formulario</h1>
+                <form action="ejemplo.php" method="post">
+                  <label for="nombre-cliente">Nombre cliente:</label>
+                  <input type="text" name="nombre-cliente" id="nombre-cliente">
+                  <br>
+                  <label for="pin-cliente">Pin cliente:</label>
+                  <input type="password" name="pin-cliente" id="pin-cliente">
+                  <br>
+                  <label for="tamanio-vaso">Tamaño de vaso:</label>
+                  <input type="number" name="tamanio-vaso" id="tamanio-vaso" min="10" max="15" step="1">
+                  <br>
+                  <label for="tipo-chile">Tipo de chile:</label>
+                  <select name="tipo-chile" id="tipo-chile">
+                    <option value="opcion1">del que pica</option>
+                    <option value="opcion2">del que no pica</option>
+                    <option value="opcion3">de arbol</option>
+                    <option value="opcion4">de chapulin</option>
+                  </select>
+                  <br>
+                  <label for="cantidad-chile">Cantidad de chile:</label>
+                  <input type="range" name="cantidad-chile" id="cantidad-chile" min="10" max="15" step="1">
+                  <br>
+                  <label for="con-limon">Con limon:</label>
+                  <input type="radio" name="con-limon" id="opcion1" value="Si">
+                    <label for="opcion1">Si</label>
+                    <input type="radio" name="con-limon" id="opcion2" value="No">
+                    <label for="opcion2">No</label>
+                  <br>
+                  <label for="ingrediente-extra">Ingredientes extra:</label>        
+                  <input type="checkbox" name="ingrediente-extra" id="op1">
+                  <label for="op1">Buffalo</label>
+                  <input type="checkbox" name="ingrediente-extra" id="op2">
+                  <label for="op2">Valentina</label>
+                  <input type="checkbox" name="ingrediente-extra" id="op3">
+                  <label for="op3">Tajin</label>
+                  <br>
+                  <label for="comentario">Comentario:</label><br>
+                  <textarea name="comentario" id="comentario" cols="15" rows="10">comentario!</textarea>
+                  <br>
+                  <input type="submit" value="Pedir" name="boton" id="boton">
+                </form>
+              </div>
+            </div>
+    </main>
+
+    <footer></footer>
+
+  </section>
+  </body>
+</html>
